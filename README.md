@@ -2,7 +2,7 @@
 
 ![img.png](./readme-image/first.png)
 
-Web Audio API를 활용하여 만든 간단한 시퀀서입니다.\
+Web Audio API를 활용하여 만든 간단한 시퀀서입니다.
 
 ## 조작법
 ![toolbar.png](readme-image%2Ftoolbar.png)
@@ -24,7 +24,8 @@ Tempo: Playback의 BPM을 조절할 수 있습니다.\
 ![draw.gif](readme-image%2Fdraw.gif)
 
 '그리기' 모드에서는 마우스를 드래그하여 노트를 추가할 수 있고,\
-다시 클릭하면 노트가 지워집니다.  
+다시 클릭하면 노트가 지워집니다.\
+노트 추가시, 해당 노트가 연주됩니다.\
 '그리기' 모드의 단축키는 숫자 '1'입니다.
 
 ![select.gif](readme-image%2Fselect.gif)
