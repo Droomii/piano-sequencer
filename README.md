@@ -3,6 +3,7 @@
 ![img.png](./readme-image/first.png)
 
 Web Audio API를 활용하여 만든 간단한 시퀀서입니다.
+데모 페이지: https://droomii.github.io/piano-sequencer/
 
 ## 조작법
 ![toolbar.png](readme-image%2Ftoolbar.png)
