@@ -1,4 +1,4 @@
-# 웹 피아노 데모
+# 피아노 시퀀서 토이 프로젝트
 
 ![img.png](./readme-image/first.png)
 
