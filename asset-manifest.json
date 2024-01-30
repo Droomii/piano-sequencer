@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/piano-sequencer/static/css/main.147fd560.css",
-    "main.js": "/piano-sequencer/static/js/main.1f3a59b9.js",
+    "main.js": "/piano-sequencer/static/js/main.c3b23489.js",
     "static/js/787.ee99a366.chunk.js": "/piano-sequencer/static/js/787.ee99a366.chunk.js",
     "index.html": "/piano-sequencer/index.html",
     "main.147fd560.css.map": "/piano-sequencer/static/css/main.147fd560.css.map",
-    "main.1f3a59b9.js.map": "/piano-sequencer/static/js/main.1f3a59b9.js.map",
+    "main.c3b23489.js.map": "/piano-sequencer/static/js/main.c3b23489.js.map",
     "787.ee99a366.chunk.js.map": "/piano-sequencer/static/js/787.ee99a366.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.147fd560.css",
-    "static/js/main.1f3a59b9.js"
+    "static/js/main.c3b23489.js"
   ]
 }
