@@ -12,7 +12,7 @@ export class InstrumentService {
     private _playbackNotes: Promise<NoteAudioEvent>[] = [];
     constructor(inst: EInstrumentTypeCode) {
         this._audioBuffers = Array(85).fill(0).map(async (v, i) => {
-            const arrBuff = await fetch(`/assets/audio/${inst}/${String(i).padStart(2, '0')}.ogg`)
+            const arrBuff = await fetch(window.location.href + `/assets/audio/${inst}/${String(i).padStart(2, '0')}.ogg`)
                 .then(val => val.arrayBuffer());
             return this._ctx.decodeAudioData(arrBuff);
         });
