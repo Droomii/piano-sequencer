@@ -1,0 +1,25 @@
+.note {
+  position: absolute;
+  height: 100%;
+  background: #8ec7ff;
+  border-radius: 3px;
+  border: 1px solid #265e96;
+  box-shadow: inset -3px -3px 7px -3px #265e96;
+  display: flex;
+  justify-content: space-between;
+
+  > .edge {
+    max-width: 7px;
+    flex-grow: 1;
+    &:hover, :active{
+      cursor: ew-resize;
+    }
+  }
+
+  &.selected {
+    background: #ffa362;
+    border-color: #966026;
+    box-shadow: inset -3px -3px 7px -3px #966026;
+  }
+
+}

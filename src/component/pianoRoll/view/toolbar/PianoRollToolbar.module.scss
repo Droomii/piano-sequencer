@@ -1,0 +1,29 @@
+.toolbarWrapper {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: #8ec7ff;
+
+    > li {
+
+        button {
+            padding: 2px 5px;
+            border: 1px solid #cccccc;
+            background: #f8f8f8;
+
+            & ~ button {
+                border-left: none;
+            }
+
+            &.active {
+                background: #bfbfbf;
+            }
+        }
+
+        & ~ li {
+            margin-left: 10px;
+        }
+    }
+}

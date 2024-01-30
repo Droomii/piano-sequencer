@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    > .rulerWrapper {
+        flex-shrink: 0;
+        height: 30px;
+        padding-left: 80px;
+        width: 100%;
+        background: #6a6a6a;
+        box-shadow: 0 0 0 0;
+        position: sticky;
+        top:0;
+    }
+
+    > .keyNoteWrapper {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+

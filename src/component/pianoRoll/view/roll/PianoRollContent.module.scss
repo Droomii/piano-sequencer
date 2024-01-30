@@ -1,0 +1,11 @@
+.wrapper {
+  flex-grow: 1;
+
+  overflow: scroll;
+  min-height: 100%;
+  position: relative;
+  > .content {
+    width: 100%;
+    position: relative;
+  }
+}

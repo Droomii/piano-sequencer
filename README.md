@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# 웹 피아노 데모
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![img.png](./readme-image/first.png)
 
-## Available Scripts
+Web Audio API를 활용하여 만든 간단한 시퀀서입니다.\
 
-In the project directory, you can run:
+## 조작법
+![toolbar.png](readme-image%2Ftoolbar.png)
 
-### `npm start`
+조작 인터랙션은 Studio One의 Piano Roll 조작법을 참고하였습니다.\
+X: X축(시간)을 축소/확대 할 수 있습니다.\
+Y: Y축(음정)을 축소/확대 할 수 있습니다.\
+Tempo: Playback의 BPM을 조절할 수 있습니다.\
+음표 단위: 입력할 음표의 그리드를 조절할 수 있습니다.\
+편집 모드: 그리기/선택 모드를 선택할 수 있습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![zoom.gif](readme-image%2Fzoom.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+![click.gif](readme-image%2Fclick.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+건반을 클릭하여 소리를 들을 수 있습니다
 
-### `npm run build`
+![draw.gif](readme-image%2Fdraw.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+'그리기' 모드에서는 마우스를 드래그하여 노트를 추가할 수 있고,\
+다시 클릭하면 노트가 지워집니다.  
+'그리기' 모드의 단축키는 숫자 '1'입니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![select.gif](readme-image%2Fselect.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+'선택' 모드에서는 노트를 선택하여 지울 수 있고,\
+드래그하여 시간 및 음정을 변경할 수 있습니다.\
+'선택' 모드의 단축키는 숫자 '2'입니다.\
+Delete 혹은 Backspace 키를 누르면 선택한 노트가 지워집니다.
+![play.gif](readme-image%2Fplay.gif)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+재생 버튼 혹은 Spacebar를 누르면 현재 Piano Roll을 재생합니다.
